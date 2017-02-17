@@ -18,13 +18,23 @@
 		}
 	],
 	"require": {
-		"silverstripe/framework": ">=4.0",
-		"crackerjackdigital/silverstripe-modular": "*"
+		"silverstripe/framework": "3.x",
+		"crackerjackdigital/silverstripe-modular": "*",
+		"crackerjackdigital/silverstripe-modular-fields": "*",
+		"crackerjackdigital/silverstripe-modular-workflows": "*"
 	},
 	"repositories": [
 		{
 			"type": "vcs",
 			"url": "https://github.com/CrackerjackDigital/silverstripe-modular.git"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/CrackerjackDigital/silverstripe-modular-fields.git"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/CrackerjackDigital/silverstripe-modular-workflows.git"
 		}
 	],
 	"extra": {
